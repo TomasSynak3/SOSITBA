@@ -1,0 +1,62 @@
+CISCO PACKET TRACER small LAN - 1 router (1941), 2 switchs (2960) and 4 PCs
+https://www.youtube.com/watch?v=1KPyAQNhztM
+
+
+
+KONFIGURACIA SIETE
+
+1941 ROUTER
+
+1) Prvotná konfigurácia : no
+2) ENTER
+3) enable
+4) configure terminal (enter)
+5) interface g0/0 (meno) (ENTER)
+6) ip address 192.168.1.1 255.255.255.0 (ENTER)
+7) no shutdown (ENTER)
+8) exit
+9) interface g0/1 (meno) (ENTER)
+10) ip address 192.168.2.1 255.255.255.0 (ENTER)
+11) no shutdown (ENTER)
+
+
+PC
+
+PC1 (strana lavá)
+1) Desktop
+2) IP Configuration
+3) IP address 192.168.1.10
+4) Subnet Mask 255.255.255.0
+5) Default Gateway 192.168.1.1
+
+PC2 (strana lavá)
+1) Desktop
+2) IP Configuration
+3) IP address 192.168.1.11
+4) Subnet Mask 255.255.255.0
+5) Default Gateway 192.168.1.1
+
+PC3 (strana pravá)
+1) Desktop
+2) IP Configuration
+3) IP address 192.168.2.10
+4) Subnet Mask 255.255.255.0
+5) Default Gateway 192.168.2.1
+
+PC4 (strana pravá)
+1) Desktop
+2) IP Configuration
+3) IP address 192.168.2.11
+4) Subnet Mask 255.255.255.0
+5) Default Gateway 192.168.2.1
+
+
+ZABEZPEČENIE SIIETE
+
+
+
+
+
+
+
+
